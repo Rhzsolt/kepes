@@ -1,10 +1,18 @@
 * { box-sizing: border-box;} 
-body{
-    background: url('../Pics/Cat03.jpg');
+
+
+
+
+.wrapper{
+    
+    position: relative;
+    max-width: 1200px;
+    height: 1200px;
+    background: url('../Pics/white-bg.jpg');
 }
 
 nav li{
-    display: flex;
+    display: inline;
     margin: 50px ;
     max-width: 70px;
     margin: 10px 3px;
@@ -24,4 +32,11 @@ nav a{
 }
 nav a:hover{
     color: white;
+}
+.main{
+    
+    
+   max-width: 1200px;
+    height: 1200px;
+  
 }
