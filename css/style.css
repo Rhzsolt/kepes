@@ -2,3 +2,26 @@
 body{
     background: url('../Pics/Cat03.jpg');
 }
+
+nav li{
+    display: flex;
+    margin: 50px ;
+    max-width: 70px;
+    margin: 10px 3px;
+    background-color: rgba(0, 0, 0,.2);
+    display: block;
+    text-align: center;
+    border: 3px solid blue;
+    border-radius: 6px;
+    
+    
+}
+nav li:hover{
+    background-color: red;
+}
+nav a{
+    color:black;
+}
+nav a:hover{
+    color: white;
+}
